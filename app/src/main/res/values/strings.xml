@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pss工具箱</string>
+    <string name="menu_import">导入数据包</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_read_crew_config">读取船员配置</string>
+    <string name="menu_thanks">致谢</string>
+
+    <string name="select_rarity">选择稀有度</string>
+    <string name="select_crew">选择船员</string>
+    <string name="as_material">作为材料</string>
+    <string name="as_product">作为产物</string>
+    <string name="plus">+</string>
+    <string name="arrow">→</string>
+    <string name="menu_settings">设置</string>
+
+    <string name="about_title">关于PSS Prestige</string>
+    <string name="copy_contact">复制联系方式</string>
+    <string name="contact_copied">已复制联系方式</string>
+
+
+</resources>

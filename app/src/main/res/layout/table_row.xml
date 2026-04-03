@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <!-- 属性名 -->
+    <TextView
+        android:id="@+id/tv_attr"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:text="属性"
+        android:textStyle="bold" />
+
+    <!-- 最终值 -->
+    <TextView
+        android:id="@+id/tv_final"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="0.000" />
+
+    <!-- 基础值 -->
+    <TextView
+        android:id="@+id/tv_base"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="#DDDDDD"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="0.000" />
+
+    <!-- 训练值 -->
+    <EditText
+        android:id="@+id/et_train"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:minHeight="0dp"
+        android:padding="2dp"
+        android:text="0" />
+
+    <!-- 装备总属性 -->
+    <EditText
+        android:id="@+id/et_eq1m"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:minHeight="0dp"
+        android:padding="2dp"
+        android:text="0" />
+
+</TableRow>
